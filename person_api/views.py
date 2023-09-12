@@ -58,7 +58,7 @@ def person_detail(request, pk):
 
 
     elif request.method == 'PUT':
-         if name is None or person is None:
+         if (name is None) or (person is None):
              response_data = {"response":"Name parameter needed or User does not exist"}
              return Response(response_data,status=status.HTTP_404_NOT_FOUND)
          person.name = name
