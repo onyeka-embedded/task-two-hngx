@@ -7,8 +7,8 @@ Base URL:	[https://person.api.render.com](https://person.api.render.com)
 
 ### person - Everything about person's api endpoints
 
-* POST /api 	- add a new person to database"\n"
-Parameter "\n"
+* POST /api 	- add a new person to database <br>
+Parameter <br>
 body *required	Person that needs to be added to the database
 	 example value (name must be a string)
 
