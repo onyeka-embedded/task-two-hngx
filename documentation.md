@@ -1,23 +1,21 @@
 # Introduction
-Person API Documentation
-[Base URL: person.api.render.com]
+## Person API Documentation
+Base URL:	[https://person.api.render.com](https://person.api.render.com)
 
-Schemes
-HTTPS
+* Schemes
+### HTTPS
 
-person - Everything about person's api endpoints
-
-- POST /api 	- add a new person to database
-Parameter
-body *required	Person that needs to be added to the database
-	 example value (name must be a string)
-
+### person - Everything about person's api endpoints
+<br>
+POST  /api 	- add a new person to database <br>
+Parameter <br>
+body - This is a required field	Person that needs to be added to the database <br>
+	 Example value (name must be a string) <br>
 	{
    	 "name": "Mark Essien"
-  	}
-	Parameter content type - application/json
-Response
-
+  	} <br>
+	Parameter content type - application/json <br>
+Response <br>
 	{
     "id": "00c7bdcc-226e-4052-8333-ddab11ef00aa",
     "name": "Mark Essien"
@@ -27,7 +25,7 @@ Code
 406	-	Not Acceptable
 
 
-- GET /api/user_id	- Returns a single person
+* GET /api/user_id	- Returns a single person
 Parameter
 user_id *reqired
 	example request
