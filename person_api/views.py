@@ -66,8 +66,8 @@ def person_detail(request, pk):
          serializerData = PersonSerializer(data=request.data)
          response_data = {
              "response":"Person Updated",
-              "person": serializerData
-             }
+              "person": {serializerData}
+         }
          return Response(response_data,status=status.HTTP_200_OK)
 
 
