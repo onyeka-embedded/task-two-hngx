@@ -1,13 +1,14 @@
 # Introduction
 ## Person API Documentation
-Base URL: [https://person.api.render.com](https://person.api.render.com)
-Schemes
+Base URL:	[https://person.api.render.com](https://person.api.render.com)
+
+* Schemes
 ### HTTPS
 
-person - Everything about person's api endpoints
+### person - Everything about person's api endpoints
 
-* POST /api 	- add a new person to database
-Parameter
+* POST /api 	- add a new person to database "\n"
+Parameter "\n"
 body *required	Person that needs to be added to the database
 	 example value (name must be a string)
 
