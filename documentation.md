@@ -11,18 +11,18 @@ POST  /api 	- add a new person to database i.e. https://hngxtask-7wst.onrender.c
 Parameter <br>
 body - This is a required field	Person that needs to be added to the database <br>
 	 Example value (name must be a string) <br>
-	{
-   	 "name": "Mark Essien"
+	{ <br>
+   	 "name": "Mark Essien" <br>
   	} <br>
 	Parameter content type - application/json <br>
 Response <br>
-	{
-    "id": "00c7bdcc-226e-4052-8333-ddab11ef00aa",
-    "name": "Mark Essien"
-    }
-Code
-200	-	OK
-406	-	Not Acceptable
+	{ <br>
+    "id": "00c7bdcc-226e-4052-8333-ddab11ef00aa", <br>
+    "name": "Mark Essien" <br>
+    } <br>
+Code <br>
+200	-	OK <br>
+406	-	Not Acceptable <br>
 
 
 * GET /api/user_id	- Returns a single person
