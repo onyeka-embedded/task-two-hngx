@@ -1,6 +1,6 @@
 # Introduction
 ## Person API Documentation
-Base URL: [GG](https://person.api.render.com)
+Base URL: [https://person.api.render.com](https://person.api.render.com)
 Schemes
 ### HTTPS
 
