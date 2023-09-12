@@ -5,6 +5,6 @@ from . import views
 
 
 urlpatterns = [
-    path('', views.person_list, name='person_list'),
-    path('/<str:pk>', views.person_detail, name='person_detail')
+    path('api', views.person_list, name='person_list'),
+    path('api/<str:pk>', views.person_detail, name='person_detail')
 ]
