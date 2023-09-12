@@ -63,7 +63,11 @@ def person_detail(request, pk):
              return Response(response_data,status=status.HTTP_404_NOT_FOUND)
          person.name = name
          person.save()
-         response_data = {"response":"Person Updated"}
+         serializerData = PersonSerializer(person)
+         response_data = {
+             "response":"Person Updated",
+             "person":serializerData
+             }
          return Response(response_data,status=status.HTTP_200_OK)
 
 
