@@ -1,6 +1,6 @@
 # How to setup, run and use person API
 
-- https//...render.com is the base url for the api, To make request(CRUD)
+- [https//...render.com](https://hngxtask-7wst.onrender.com) is the base url for the api, To make request(CRUD)
 user needs to add the necessary path.
 
 - For CREATE operation, add /api to the base url i.e.
