@@ -16,9 +16,9 @@ body - This is a required field	Person that needs to be added to the database <b
   	} <br>
 	Parameter content type - application/json <br>
 Response <br>
-	{ <br>
+	{
     "id": "00c7bdcc-226e-4052-8333-ddab11ef00aa", <br>
-    "name": "Mark Essien" <br>
+    "name": "Mark Essien" 
     } <br>
 Code <br>
 200	-	OK <br>
