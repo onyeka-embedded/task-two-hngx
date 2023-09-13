@@ -15,6 +15,6 @@ user needs to add the necessary path.
 - For DELETE operation, add /api/user_id to the base url i.e.
   https//...render.com/api - This creates a person
 
-![UML Diagram](https://github.com/onyeka-embedded/task-two-hngx/blob/main/uml_diagram.PNG)
+![UML Diagram](uml_diagram.PNG)
 
   Script - [https://documenter.getpostman.com/view/29719258/2s9YC4VtHx](https://documenter.getpostman.com/view/29719258/2s9YC4VtHx)
