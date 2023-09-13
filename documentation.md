@@ -24,49 +24,47 @@ Code <br>
 200	-	OK <br>
 406	-	Not Acceptable <br>
 
+<br>
+* GET /api/user_id	- Returns a single person <br>
+Parameter <br>
+user_id *reqired <br>
+	example request <br>
+	/api/278fvmv-dkj3jd-dkkm4m4  <br>
 
-* GET /api/user_id	- Returns a single person
-Parameter
-user_id *reqired
-	example request
-	/api/278fvmv-dkj3jd-dkkm4m4
+Response <br>
+Code	Description <br>
+200	OK  <br>
 
-Response
-Code	Description
-200	OK 
-{
-  {
-   "id": "278fvmv-dkj3jd-dkkm4m4"
-   "name": "Mark Essien"
+  { <br><br>
+   "id": "278fvmv-dkj3jd-dkkm4m4" 
+   "name": "Mark Essien" <br>
   }
-  "status": "available"
-}
-400	Invalid ID
-404	person not found
+  <br>
+400	Invalid ID <br>
+404	person not found <br>
 
 
-- PUT /api/user_id	- Updates a person
-Parameter
-user_id and name *reqired
-	example request
-	/api/278fvmv-dkj3jd-dkkm4m4
-Body
-	{
-   	 "name": "Onyeka_embedded"
-  	}
-	Parameter content type - application/json
-Response
-Code	Description
-200	successful 
-{
-  {
-   "id": "278fvmv-dkj3jd-dkkm4m4"
-   "name": "Onyeka_embedded"
-  }
-  "status": "Updated"
-}
-400	Invalid ID
-404	person not found
+- PUT /api/user_id	- Updates a person <br>
+Parameter <br>
+user_id and name *reqired <br>
+	example request <br>
+	/api/278fvmv-dkj3jd-dkkm4m4 <br>
+Body <br>
+	{ <br>
+   	 "name": "Onyeka_embedded" <br>
+  	} <br>
+	Parameter content type - application/json <br>
+Response <br>
+Code	Description <br>
+200	successful <br>
+
+  { <br>
+   "id": "278fvmv-dkj3jd-dkkm4m4" <br>
+   "name": "Onyeka_embedded" <br>
+  } 
+  <br>
+400	Invalid ID <br>
+404	person not found <br>
 
 
 - DELETE /api/user_id	- Deletes a single person
