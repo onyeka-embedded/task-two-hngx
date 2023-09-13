@@ -63,7 +63,11 @@ def person_detail(request, pk):
              return Response(response_data,status=status.HTTP_404_NOT_FOUND)
          person.name = name
          person.save()
-         response_data = {"response":"Person Updated"}
+         serializerData = PersonSerializer(person)
+         response_data = {
+             "response":"Person Updated",
+             "person": serializerData.data
+         }
          return Response(response_data,status=status.HTTP_200_OK)
 
 
@@ -71,6 +75,7 @@ def person_detail(request, pk):
          if person is None:
              response_data = {"response":"Person does not exists"}
              return Response(response_data,status=status.HTTP_404_NOT_FOUND)
+         serializerData = PersonSerializer(person)
          person.delete()
          response_data = {"response":"person Deleted"}
          return Response(response_data,status=status.HTTP_200_OK)
