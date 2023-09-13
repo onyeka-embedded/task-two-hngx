@@ -7,7 +7,7 @@ Base URL:	[https://hngxtask-7wst.onrender.com](https://hngxtask-7wst.onrender.co
 
 ### person - Everything about person's api endpoints
 <br>
-POST  /api 	- add a new person to database i.e. https://hngxtask-7wst.onrender.com/api  <br>
+- POST  /api 	- add a new person to database i.e. https://hngxtask-7wst.onrender.com/api  <br>
 Parameter <br>
 body - This is a required field	Person that needs to be added to the database <br>
 	 Example value (name must be a string) <br>
@@ -25,7 +25,7 @@ Code <br>
 406	-	Not Acceptable <br>
 
 <br>
-* GET /api/user_id	- Returns a single person <br>
+- GET /api/user_id	- Returns a single person <br>
 Parameter <br>
 user_id *reqired <br>
 	example request <br>
