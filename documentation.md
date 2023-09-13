@@ -51,8 +51,8 @@ user_id and name *reqired <br>
 	/api/278fvmv-dkj3jd-dkkm4m4 <br>
 Body <br>
 	{ 
-   	 "name": "Onyeka_embedded" <br>
-  	}
+   	 "name": "Onyeka_embedded" 
+  	} <br>
 	Parameter content type - application/json <br>
 Response <br>
 Code	Description <br>
