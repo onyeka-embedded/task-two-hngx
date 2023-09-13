@@ -43,7 +43,6 @@ Code	Description <br>
 400	Invalid ID <br>
 404	person not found <br>
 
-
 - PUT /api/user_id	- Updates a person <br>
 Parameter <br>
 user_id and name *reqired <br>
