@@ -81,7 +81,7 @@ Code	Description <br>
 
 404	person not found <br>
 
-<br> <br>
+<br>
 - GET /api		- Returns list of all persons <br>
 
 Response <br>
