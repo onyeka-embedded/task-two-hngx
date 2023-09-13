@@ -81,4 +81,4 @@ def person_detail(request, pk):
          return Response(response_data,status=status.HTTP_200_OK)
         
 
-  
+            #https://www.postman.com/onyekaembedded
