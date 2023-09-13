@@ -35,9 +35,9 @@ Response <br>
 Code	Description <br>
 200	OK  <br>
 
-  { <br>
+  {
    "id": "278fvmv-dkj3jd-dkkm4m4" 
-   "name": "Mark Essien" <br>
+   "name": "Mark Essien"
   }
   <br>
 400	Invalid ID <br>
